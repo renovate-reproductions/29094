@@ -1,0 +1,1 @@
+# renovate-redis-image-issue-minimal-reproduction

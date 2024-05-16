@@ -6,7 +6,6 @@
   "packageRules": [
     {
       "matchPackageNames": ["docker.io/bitnami/redis"],
-      "versioning": "docker", 
       "versionCompatibility": "^(?<version>[^-]+)(?<compatibility>-debian-)"
     }
   ]

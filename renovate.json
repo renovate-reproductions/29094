@@ -1,12 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:base"
-  ],
-  "packageRules": [
-    {
-      "matchPackageNames": ["docker.io/bitnami/redis"],
-      "versionCompatibility": "^(?<version>[^-]+)(?<compatibility>-debian-)"
-    }
+    "config:recommended"
   ]
 }
